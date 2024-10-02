@@ -1,0 +1,64 @@
+@font-face {
+    font-family: roboto;
+    src: url(/Roboto/Roboto-Bold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.sidebar {
+    height: 100vh;
+    padding: 15px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.card-icon {
+    font-size: 2rem;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 767px) {
+    .sidebar {
+        height: auto;
+    }
+}
+
+.dark {
+    background-color: #001931;
+}
+
+.danger {
+    background-color: #AB2814;
+}
+
+.primary {
+    background-color: #0151A3;
+}
+
+.card-small {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 0px;
+}
+
+.card-padding {
+    padding: 20px;
+}
